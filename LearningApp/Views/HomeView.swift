@@ -24,7 +24,7 @@ struct HomeView: View {
                         
                         ForEach(model.modules) { module in
                             
-                            VStack (alignment: .leading, spacing: 20){
+                            VStack (spacing: 20){
                                 
                                 NavigationLink {
                                     ContentView()
@@ -53,6 +53,7 @@ struct HomeView: View {
             }
             .navigationTitle("Get started")
         }
+        .navigationViewStyle(.stack)
     }
 }
 
