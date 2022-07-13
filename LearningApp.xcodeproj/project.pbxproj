@@ -13,6 +13,7 @@
 		261A8209287389E6003EE6C1 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A8208287389E6003EE6C1 /* CodeTextView.swift */; };
 		261A8243287499F9003EE6C1 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A8242287499F9003EE6C1 /* RectangleCard.swift */; };
 		261A82632875D1EF003EE6C1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A82622875D1EF003EE6C1 /* TestView.swift */; };
+		261A8265287F1AEF003EE6C1 /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A8264287F1AEF003EE6C1 /* TestResultView.swift */; };
 		2684F747286F8C17000BE16B /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684F746286F8C17000BE16B /* LearningApp.swift */; };
 		2684F749286F8C17000BE16B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684F748286F8C17000BE16B /* HomeView.swift */; };
 		2684F74B286F8C1B000BE16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2684F74A286F8C1B000BE16B /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		261A8208287389E6003EE6C1 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		261A8242287499F9003EE6C1 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 		261A82622875D1EF003EE6C1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		261A8264287F1AEF003EE6C1 /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
 		2684F743286F8C17000BE16B /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2684F746286F8C17000BE16B /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		2684F748286F8C17000BE16B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				261A8208287389E6003EE6C1 /* CodeTextView.swift */,
 				261A8242287499F9003EE6C1 /* RectangleCard.swift */,
 				261A82622875D1EF003EE6C1 /* TestView.swift */,
+				261A8264287F1AEF003EE6C1 /* TestResultView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				261A82632875D1EF003EE6C1 /* TestView.swift in Sources */,
+				261A8265287F1AEF003EE6C1 /* TestResultView.swift in Sources */,
 				2684F749286F8C17000BE16B /* HomeView.swift in Sources */,
 				2684F7622870EAA4000BE16B /* HomeViewRow.swift in Sources */,
 				2684F7642871EB16000BE16B /* ContentView.swift in Sources */,
