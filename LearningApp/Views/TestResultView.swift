@@ -23,7 +23,7 @@ struct TestResultView: View {
         let pct = Double(numCorrect)/Double(model.currentModule!.test.questions.count)
         
         if pct > 0.5 {
-            return "Awesome"
+            return "Awesome !"
         }
         else if pct > 0.2 {
                 return "Doing great"

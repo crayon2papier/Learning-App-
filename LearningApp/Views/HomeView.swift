@@ -55,6 +55,7 @@ struct HomeView: View {
                                 
                             
                             }
+                            .padding(.bottom, 10)
                             
                         }
                     }
